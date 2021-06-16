@@ -6,9 +6,11 @@ import Admin from './components/admin/admin';
 function App() {
   return (
     <div className="App">
+
       <Admin/>
 
     </div>
+
   );
 }
 
