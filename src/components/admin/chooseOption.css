@@ -1,0 +1,11 @@
+
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+#card{
+    float: left;
+    margin: 10px;
+}
