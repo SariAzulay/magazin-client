@@ -12,7 +12,6 @@ function App() {
   return (
     <div className="App">
 
-      <Admin/>
       <Router>
         <Switch>
           <Route path="/CHOOSE">
