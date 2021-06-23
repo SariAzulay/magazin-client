@@ -8,9 +8,9 @@ export default function ChooseOption(props) {
 
     function goTo(){
         if(props.title=="My Magazins")
-            history.push("/MYMAGAZINS");
+            history.push("/admin/mymagazins");
             else
-            history.push("/CREATEPOST");
+            history.push("/admin/createpost");
     }
 
   return (

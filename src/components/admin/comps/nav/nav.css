@@ -6,4 +6,7 @@ text-align: right;
 .emp{margin: left;
     height: 480px;
     width: 22px;
-background-color: white;}
+background-color: white;
+float: left;}
+#float{float: left;
+}
