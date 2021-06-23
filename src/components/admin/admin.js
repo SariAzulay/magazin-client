@@ -1,8 +1,11 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 //import { Toolbar, ToolbarBackAction, ToolbarContent, ToolbarAction } from 'react-native-paper';
 import Toolbar from 'react-minimalist-toolbar'
-import { Link } from 'react-router-dom';
-
+import { Link, Redirect } from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Choose from './choose';
+import CreatePost from './createPost';
+import MyMagazins from './myMagazins';
 
 export default function Admin() {
     return (
@@ -16,6 +19,22 @@ export default function Admin() {
             <FontAwesomeIcon icon={["fas", "user"]} />
             <FontAwesomeIcon icon={["fas", "bars"]} />
 
+            <Router>
+                <Switch>
+                <Route path="/admin/choose">
+                    <Choose/>
+                </Route>
+                <Route path="/admin/mymagazins">
+                    <MyMagazins/>
+                </Route>
+                <Route path="/admin/createpost">
+                    <CreatePost/>
+                </Route>
+                <Route path="/">
+                    <Redirect to="/admin/choose"></Redirect>
+                </Route>
+                </Switch>
+            </Router>
 
 
             {/* </Toolbar> */}
