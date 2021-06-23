@@ -1,5 +1,3 @@
-
-
 function convertActionNameToLowerCase(actionName) {
 
     return actionName.toLowerCase(). replace(/_(\w)/g, v => v[1].toUpperCase());

@@ -11,6 +11,7 @@ import CreatePost from './components/admin/createPost';
 function App() {
   return (
     <div className="App">
+<<<<<<< HEAD
       <Admin/>
       <Router>
         <Switch>
@@ -26,10 +27,15 @@ function App() {
         </Switch>
       </Router>
       
+=======
+       
+
+      <Admin/>
+>>>>>>> 49105fe074b6174efc447b830b9399be86c45065
     </div>
 
-  );
-}
-
+  
+)
+  }
 export default App;
 
