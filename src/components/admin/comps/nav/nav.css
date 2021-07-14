@@ -1,0 +1,12 @@
+
+.icons{background-color: white;
+text-align: right;
+}
+.icon{margin: 0.2%;}
+.emp{margin: left;
+    height: 480px;
+    width: 22px;
+background-color: white;
+float: left;}
+#float{float: left;
+}

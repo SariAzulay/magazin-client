@@ -10,6 +10,8 @@ import CreatePost from './components/admin/createPost';
 function App() {
   return (
     <div className="App">
+
+  
       <Admin/>
       
  
