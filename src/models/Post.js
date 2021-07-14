@@ -2,7 +2,9 @@
 export const Post=()=>{
     return(
         {
-            post_name:"post name",
+            postName:"post name",
+            mainImgSrc:"",
+            formData:new FormData()
         }
     )
 }

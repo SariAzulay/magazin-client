@@ -1,5 +1,11 @@
 .bold{color:black;margin: 0.7%;}
 #p{background-color: black;
+    margin-top: 25px;
+    margin-left: 25px;
+width: 1000px;
+border-radius: 20px;
 color:white}
 #b{background-color: red;
 color:white}
+#lb{background-color: lightblue;color: white;}
+.radius{border-radius: 20px;}
