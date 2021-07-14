@@ -1,0 +1,49 @@
+
+#postTitle{
+    border: none;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+    font-family: normal normal normal 63px/93px Anton;
+    margin-right: 25%;
+}
+
+#form{
+    background-color: white;
+    width: 73%;
+    margin-left: 5%;
+}
+
+#textarea{
+    width: 80%;
+    height: 270px;
+}
+
+#toTheMagazin{
+    float: right;
+    margin-right: 23%;
+    z-index: 5px;
+}
+
+#backHome{
+    float: left;
+    margin-left: 4%;
+}
+
+#caretLeftIcon{
+margin-right: 5px;
+}
+
+#caretRightIcon{
+    margin-left: 5px;
+}
+
+#by{
+    text-align: left;
+    margin-left: 10%;
+}
+
+#createIPostImg{
+    width: 79%;
+    margin-right: 18%;
+}

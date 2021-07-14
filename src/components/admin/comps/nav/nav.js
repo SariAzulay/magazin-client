@@ -7,6 +7,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import CreatePost from '../../createPost';
 import MyMagazins from '../../myMagazins';
 import Choose from '../../choose';
+import Aside from '../../aside';
 
 const Nav = (props) => {
 
