@@ -14,3 +14,9 @@
     position: fixed;
     left: 80%;
 }
+
+#createNewPage
+{
+    color: white;
+    margin-top: 15px;
+}
