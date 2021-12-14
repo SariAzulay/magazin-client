@@ -6,6 +6,7 @@ const initialState = {
     currentPost: Post(),
     posts: [],
 
+
 }
 const post = {
 
@@ -16,7 +17,17 @@ const post = {
     setAppendToFormData:(state, action) => {
         const { key, file } = action.payload;
         state.currentPost.formData.append(key,file);
-    }
+    },
+
+    savePostName: (state, action) => {
+        state.currentPost.postName=action.payload.title;
+    },
+
+    saveDescription: (state, action) => {
+        state.currentPost.description=action.payload.description;
+    },
+
+    
 
 }
 export default produce(

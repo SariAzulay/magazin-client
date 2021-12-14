@@ -8,6 +8,7 @@ import CreatePost from '../../createPost';
 import MyMagazins from '../../myMagazins';
 import Choose from '../../choose';
 import Aside from '../../aside';
+import PostSettings from '../../postSettings';
 
 const Nav = (props) => {
 
@@ -25,6 +26,9 @@ const Nav = (props) => {
                 <Switch>
                 <Route path="/admin/choose">
                     <Choose/>
+                </Route>
+                <Route path="/admin/post-settings">
+                    <PostSettings/>
                 </Route>
                 <Route path="/admin/mymagazins">
                     <MyMagazins/>
